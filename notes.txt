@@ -1,0 +1,5 @@
+google account information
+
+username = cpt265.chatapp
+
+password = dcQyptQGRkV4BkR

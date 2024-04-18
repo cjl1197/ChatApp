@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ChatApp",
+    "slug": "ChatApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.company.ChatApp",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow access to your camera to take photos and videos",
+        "NSPhotoLibraryAddUsageDescription": "Allow access to your photo library to save photos and videos",
+        "NSPhotoLibraryUsageDescription": "Allow access to your photo library to select photos and videos"
+      }
+    },
+    "android": {
+      "package": "com.company.ChatApp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
